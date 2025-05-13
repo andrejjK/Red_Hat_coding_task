@@ -20,3 +20,4 @@ Rawhide composes (`C1`, `C2`):
 
 ## Remarks:
 - For faster task progress, exceptions and error cases are not handled (i.e. invalid inputs, type checks and value checks). Only the behavior specified in the assignment is implemented.
+- The file `example_output.txt` contains output from testing the script.
