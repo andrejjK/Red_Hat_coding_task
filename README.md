@@ -1,7 +1,7 @@
 # Red_Hat_coding_task
 
 ## Usage:
-Output a list of Rawhide composes built in the past N days:
+1. Output a list of Rawhide composes built in the past N days:
 
 `python3 rpms.py N`
 
@@ -9,7 +9,7 @@ Output a list of Rawhide composes built in the past N days:
 > 
 > Example: `python3 rpms.py 10`
 
-Output a change-set of packages for the x86_64 architecture between two specified
+2. Output a change-set of packages for the x86_64 architecture between two specified
 Rawhide composes (`C1`, `C2`):
 
 `python3 rpms.py C1 C2`
