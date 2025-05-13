@@ -1,0 +1,218 @@
+~/ws/Fedora_rawhide_parser$ python3 rpms.py 10
+Fedora-Rawhide-20250504.n.0
+Fedora-Rawhide-20250505.n.0
+Fedora-Rawhide-20250506.n.0
+Fedora-Rawhide-20250507.n.0
+Fedora-Rawhide-20250508.n.0
+Fedora-Rawhide-20250509.n.0
+Fedora-Rawhide-20250510.n.0
+Fedora-Rawhide-20250511.n.0
+Fedora-Rawhide-20250512.n.0
+Fedora-Rawhide-20250513.n.0
+
+
+
+
+
+
+~/ws/Fedora_rawhide_parser$ python3 rpms.py 20250512 20250513
+Reading packages from compose 20250512
+Reading packages from compose 20250513
+
+Searching packages added in the new compose
+
+
+##### Added packages: #####
+
+python-aiolimiter-0:1.2.1-7
+rust-bincode1-0:1.3.3-1
+rust-bincode_derive-0:2.0.1-1
+rust-deadpool-runtime-0:0.1.4-1
+rust-rand_xorshift0.3-0:0.3.0-1
+rust-uefi-macros-0:0.18.1-2
+rust-unty-0:0.0.4-1
+rust-virtue-0:0.0.18-1
+
+Searching packages removed in the new compose
+
+
+##### Removed packages: #####
+
+CGSI-gSOAP-0:1.3.12-3
+conmux-0:0.0-52.493svn
+
+Searching packages with changed versions
+
+
+##### Changed packages: #####
+
+NetworkManager-vpnc 1:1.4.0-2 -> 1:1.4.0-3
+bpfilter 0:0.3.0-3 -> 0:0.4.0-2
+calf 0:0.90.6-1 -> 0:0.90.7-1
+cpu-x 0:5.3.0-3 -> 0:5.3.1-1
+dkms 0:3.2.0-2 -> 0:3.2.1-1
+dump 1:0.4-0.59.b52 -> 1:0.4-0.60.b52
+firecracker 0:1.11.0-1 -> 0:1.12.0-1
+flatpak 0:1.16.0-3 -> 0:1.16.1-1
+fuse-btfs 0:2.24-14 -> 0:3.0-2
+gnome-shell-extension-forge 0:87-1 -> 0:88-1
+gnome-shell-extension-vertical-workspaces 0:48.6-1 -> 0:48.8-1
+google-noto-fonts 0:20250401-1 -> 0:20250501-1
+helix 0:25.01.1-3 -> 0:25.01.1-4
+hplip 0:3.25.2-3 -> 0:3.25.2-4
+ibus-typing-booster 0:2.27.52-1 -> 0:2.27.53-1
+kernel-headers 0:6.15.0-0.rc5.42 -> 0:6.15.0-0.rc6.49
+libcec 0:6.0.2-19 -> 0:7.0.0-2
+libdeflate 0:1.23-2 -> 0:1.24-1
+libsvm 0:3.35-3 -> 0:3.36-1
+mariadb-java-client 0:3.5.0-6 -> 0:3.5.3-2
+mlt 0:7.30.0-1 -> 0:7.32.0-1
+mold 0:2.39.0-1 -> 0:2.39.1-1
+nbdkit 0:1.43.7-1 -> 0:1.43.8-1
+perl-Alien-FFI 0:0.27-10 -> 0:0.27-11
+perl-App-Cme 0:1.042-1 -> 0:1.043-1
+perl-Cairo-GObject 0:1.005-19.fc42 -> 0:1.005-20
+perl-Devel-Cover 0:1.47-1 -> 0:1.48-1
+perl-Gtk3 0:0.038-15 -> 0:0.038-16
+perl-IO-Compress-Brotli 0:0.019-1 -> 0:0.019000-2
+perl-Mail-SPF 0:3.20240923-2 -> 0:3.20250505-1
+perl-Tree-DAG_Node 0:1.34-1 -> 0:1.35-1
+php-pecl-uuid 0:1.2.1-3 -> 0:1.3.0-1
+phpunit11 0:11.5.19-1 -> 0:11.5.20-1
+phpunit12 0:12.1.4-1 -> 0:12.1.5-1
+pie 0:0.10.0-1 -> 0:0.12.0-1
+pinball 0:0.3.4-18 -> 0:0.3.4-19
+plasma-breeze 0:6.3.5-1 -> 0:6.3.5-2
+podman-compose 0:1.3.0-2 -> 0:1.4.0-1
+python-CacheControl 0:0.14.2-1 -> 0:0.14.3-1
+python-astropy-iers-data 0:0.2025.4.21.0.37.6-1 -> 0:0.2025.5.12.0.38.29-1
+python-atlassian-python-api 0:4.0.2-1 -> 0:4.0.4-1
+python-boto3 0:1.38.13-1 -> 0:1.38.14-1
+python-botocore 0:1.38.13-1 -> 0:1.38.14-1
+python-deepdiff 0:8.4.1-1 -> 0:8.5.0-1
+python-hiredis 0:3.1.0-2 -> 0:3.1.1-1
+python-multidict 0:6.3.0-1 -> 0:6.4.3-1
+python-orderly-set 0:5.3.0-1 -> 0:5.4.1-1
+python-pyproject-api 0:1.9.0-1 -> 0:1.9.1-1
+python-rich-toolkit 0:0.14.5-1 -> 0:0.14.6-1
+python-tifffile 0:2025.3.30-1 -> 0:2025.5.10-1
+python-versioningit 0:3.1.2-5 -> 0:3.1.3-1
+python3.14 0:3.14.0~a7-3 -> 0:3.14.0~b1-1
+qt-creator 0:16.0.1-2 -> 0:17.0.0-0.1
+radicale 0:3.5.3-1 -> 0:3.5.3-3
+rocblas 0:6.4.0-6 -> 0:6.4.0-7
+rocsparse 0:6.4.0-1 -> 0:6.4.0-4
+rpm 0:5.99.90-4 -> 0:5.99.90-5
+rubygem-sugarjar 0:1.1.3-4 -> 0:2.0.1-1
+rust-ahash 0:0.8.11-4 -> 0:0.8.12-1
+rust-arcstr 0:1.2.0-2 -> 0:1.2.0-3
+rust-astral-tokio-tar 0:0.5.2-1 -> 0:0.5.2-2
+rust-async_http_range_reader 0:0.9.1-3 -> 0:0.9.1-5
+rust-bincode 0:1.3.3-11 -> 0:2.0.1-1
+rust-bisection 0:0.1.0-5 -> 0:0.1.0-7
+rust-boxcar 0:0.2.11-1 -> 0:0.2.11-2
+rust-cargo_toml 0:0.22.1-1 -> 0:0.22.1-2
+rust-chromaterm 0:0.1.0-1 -> 0:0.1.0-3
+rust-circular-buffer 0:1.1.0-1 -> 0:1.1.0-2
+rust-drop-tracker 0:0.1.3-4 -> 0:0.1.3-7
+rust-env_home 0:0.1.0-1 -> 0:0.1.0-2
+rust-equator 0:0.4.2-1 -> 0:0.4.2-2
+rust-equator-macro 0:0.4.2-1 -> 0:0.4.2-2
+rust-etcetera0.8 0:0.8.0-1 -> 0:0.8.0-2
+rust-fd-find 0:10.2.0-2 -> 0:10.2.0-3
+rust-gengo 0:0.12.2-1 -> 0:0.13.0-2
+rust-half 0:2.4.1-4 -> 0:2.6.0-1
+rust-http-content-range 0:0.2.1-2 -> 0:0.2.1-4
+rust-icu_collections 0:1.5.0-4 -> 0:1.5.0-5
+rust-icu_locid 0:1.5.0-2 -> 0:1.5.0-3
+rust-icu_locid_transform 0:1.5.0-1 -> 0:1.5.0-2
+rust-icu_locid_transform_data 0:1.5.1-1 -> 0:1.5.1-2
+rust-icu_normalizer 0:1.5.0-2 -> 0:1.5.0-3
+rust-icu_normalizer_data 0:1.5.1-1 -> 0:1.5.1-2
+rust-icu_properties 0:1.5.1-1 -> 0:1.5.1-2
+rust-icu_properties_data 0:1.5.1-1 -> 0:1.5.1-2
+rust-icu_provider 0:1.5.0-1 -> 0:1.5.0-2
+rust-icu_provider_macros 0:1.5.0-1 -> 0:1.5.0-2
+rust-idna_adapter 0:1.2.0-1 -> 0:1.2.0-2
+rust-igvm 0:0.3.4-1 -> 0:0.3.4-2
+rust-jiff 0:0.2.13-1 -> 0:0.2.13-2
+rust-jiff0.1 0:0.1.29-1 -> 0:0.1.29-2
+rust-kvm-ioctls 0:0.20.0-1 -> 0:0.21.0-1
+rust-libcramjam 0:0.7.0-7 -> 0:0.7.0-8
+rust-libdeflate-sys 0:1.23.1-1 -> 0:1.24.0-2
+rust-libdeflater 0:1.23.1-1 -> 0:1.24.0-2
+rust-libloading 0:0.8.6-2 -> 0:0.8.7-1
+rust-libz-ng-sys 0:1.1.22-1 -> 0:1.1.22-2
+rust-libz-rs-sys 0:0.5.0-1 -> 0:0.5.0-2
+rust-litemap 0:0.7.3-5 -> 0:0.7.3-6
+rust-lockfree-object-pool 0:0.1.6-4 -> 0:0.1.6-7
+rust-lscolors 0:0.17.0-4 -> 0:0.20.0-2
+rust-lsd 0:1.1.5-4 -> 0:1.1.5-5
+rust-lz4 0:1.28.1-2 -> 0:1.28.1-4
+rust-lz4-sys 0:1.11.1-3 -> 0:1.11.1-5
+rust-lzma-rs 0:0.3.0-4 -> 0:0.3.0-6
+rust-munge 0:0.4.4-1 -> 0:0.4.4-2
+rust-munge_macro 0:0.4.4-1 -> 0:0.4.4-2
+rust-nanoid 0:0.4.0-5 -> 0:0.4.0-8
+rust-no-std-net 0:0.6.0-3 -> 0:0.6.0-6
+rust-notify-types 0:2.0.0-3 -> 0:2.0.0-4
+rust-npm-package-json 0:0.1.3-3 -> 0:0.1.3-6
+rust-nu-cli 0:0.99.1-4 -> 0:0.99.1-5
+rust-nu-command 0:0.99.1-6 -> 0:0.99.1-7
+rust-nu-explore 0:0.99.1-2 -> 0:0.99.1-3
+rust-nu-utils 0:0.99.1-2 -> 0:0.99.1-3
+rust-onefetch-ascii 0:2.24.0-1 -> 0:2.24.0-2
+rust-onefetch-image 0:2.24.0-1 -> 0:2.24.0-2
+rust-onefetch-manifest 0:2.24.0-1 -> 0:2.24.0-2
+rust-os_info 0:3.10.0-1 -> 0:3.11.0-1
+rust-oxipng 0:9.1.5-1 -> 0:9.1.5-2
+rust-priority-queue 0:2.3.1-1 -> 0:2.3.1-2
+rust-rancor 0:0.1.0-2 -> 0:0.1.0-4
+rust-rand_xorshift 0:0.3.0-11 -> 0:0.4.0-1
+rust-reflink-copy 0:0.1.26-1 -> 0:0.1.26-2
+rust-relative-luminance 0:1.0.0-1 -> 0:1.0.0-3
+rust-reqwest-middleware 0:0.4.2-1 -> 0:0.4.2-2
+rust-reqwest-retry 0:0.7.0-2 -> 0:0.7.0-5
+rust-retry-policies 0:0.4.0-3 -> 0:0.4.0-6
+rust-rust-netrc 0:0.1.2-2 -> 0:0.1.2-5
+rust-ryu 0:1.0.18-3 -> 0:1.0.20-1
+rust-serde_bytes 0:0.11.16-1 -> 0:0.11.17-1
+rust-snap 0:1.1.1-5 -> 0:1.1.1-8
+rust-table_formatter 0:0.6.1-2 -> 0:0.6.1-3
+rust-tabwriter 0:1.4.1-1 -> 0:1.4.1-2
+rust-tempfile 0:3.19.1-1 -> 0:3.20.0-1
+rust-thin-vec 0:0.2.14-1 -> 0:0.2.14-2
+rust-time-humanize 0:0.1.3-3 -> 0:0.1.3-6
+rust-tl 0:0.7.8-3 -> 0:0.7.8-6
+rust-tokei 0:13.0.0~alpha.8-21 -> 0:13.0.0~alpha.8-22
+rust-tokei12 0:12.1.2-19 -> 0:12.1.2-21
+rust-tree-sitter-config 0:0.25.3-1 -> 0:0.25.3-2
+rust-tree-sitter-loader 0:0.25.3-1 -> 0:0.25.3-2
+rust-trybuild 0:1.0.104-1 -> 0:1.0.105-1
+rust-typeid 0:1.0.2-3 -> 0:1.0.3-1
+rust-utf16_iter 0:1.0.5-1 -> 0:1.0.5-2
+rust-utf8_iter 0:1.0.4-2 -> 0:1.0.4-4
+rust-uu_ls 0:0.0.27-2 -> 0:0.0.27-3
+rust-write16 0:1.0.0-1 -> 0:1.0.0-2
+rust-writeable 0:0.5.5-3 -> 0:0.5.5-4
+rust-yoke 0:0.7.5-2 -> 0:0.7.5-4
+rust-yoke-derive 0:0.7.5-2 -> 0:0.7.5-4
+rust-zerofrom 0:0.1.6-1 -> 0:0.1.6-2
+rust-zerofrom-derive 0:0.1.6-1 -> 0:0.1.6-2
+rust-zerovec 0:0.10.4-4 -> 0:0.10.4-5
+rust-zerovec-derive 0:0.10.3-2 -> 0:0.10.3-4
+rust-zopfli 0:0.8.2-1 -> 0:0.8.2-2
+scorep 0:9.0-1 -> 0:9.0-2
+setup 0:2.15.0-23 -> 0:2.15.0-24
+snowball 0:3.0.1-1 -> 0:3.0.1-4
+stb 0:0^20250314gitf056911-1 -> 0:0^20250512git802cd45-1
+tellico 0:4.0.1-3 -> 0:4.1.2-1
+tesseract-tessdata 0:4.1.0-9 -> 0:4.1.0-10
+texlive 11:2023-76 -> 11:2023-77
+tuned-switcher 0:0.8.0-1 -> 0:0.8.1-1
+unhide 0:20220611-4 -> 0:20240510-1
+virt-v2v 1:2.7.14-1 -> 1:2.7.15-1
+virtme-ng 0:1.35-1 -> 0:1.36-1
+weston 0:14.0.1-3 -> 0:14.0.2-1
+xapian-core 0:1.4.27-1 -> 0:1.4.29-2
+xen 0:4.19.2-2 -> 0:4.19.2-4
